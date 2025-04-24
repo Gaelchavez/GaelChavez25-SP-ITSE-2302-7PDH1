@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="./javascript/index.js" defer></script>
+  </head>
+  <body>
+    <h1>Hawaii Shop</h1>
+    <p class="p1">
+      This Hawaii shop was made a few years back to bring yall the best quality
+      made goods with the highest quality fibers and dyes. we hope you enjor you
+      experience here at Hawaii Shop Follow us on Twitter SnapChat Instagram and
+      Facebook.
+    </p>
+
+    <div class="Images">
+      <img
+        src="./Images/BlackAndWhiteShirt.png "
+        alt="BlackAndWhiteShirt"
+        style="width: 275px; height: 225px"
+      />
+
+      <img
+        src="./Images/BlueAndFlowers.png"
+        alt="BlackAndWhiteShirt"
+        style="width: 275px; height: 225px"
+      />
+    </div>
+
+    <form id="myForm">
+      <br />
+      <h3>Please put in your name and email</h3>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="eMail" name="email" /><br /><br />
+
+      <!--Which shirt option-->
+      <!--55.99  57.63  113.62 -->
+      <br />
+      <!--Change them to ID's-->
+
+      <h3>Please choose a shirt</h3>
+      <input type="radio" id="WaB" name="shirts" value="55.99" />
+      <label for="WaB">White and Black shirt $55.99 </label><br />
+      <input
+        type="radio"
+        id="BaF"
+        name="shirts"
+        value="57.99"/>
+      <label for="BaF">Blue and Flowers shirt $57.99</label><br />
+
+
+      <br />
+      <h3>Choose Packages</h3>
+      <p>
+        Choosing one of our <strong>optional</strong> packages you'll be given
+        free toiletries like sunscreen or beach towel for that big trip in the
+        future.
+      </p>
+      <!--Don't forget to add the new names-->
+      <input type="checkbox" id="pk1" name="Tropical Getaway" value="50.00" />
+      <label for="pk1"> Tropical Getaway $50.00</label><br />
+
+      <input type="checkbox" id="pk2" name="Paradise Retreat" value="75.00" />
+      <label for="pk2"> Paradise Retreat $75.00</label><br />
+
+      <input type="checkbox" id="pk3" name="Luxury Oasis" value="100.00" />
+      <label for="pk3"> LuxuryOasis $100.00</label><br />
+
+      <!--Review Here -->
+      <p>
+        <label for="Review">Leave a <strong>Review</strong></label>
+      </p>
+      <textarea id="Review" name="Review" rows="4" cols="50"> </textarea>
+      <br />
+
+      <!--Sumbit or Reset buttons -->
+      <p>Do you wish sumbit this purchase?</p>
+      <p>Note: all purchaes have a 8.25% added tax</p>
+      <button type="reset" id="reset">Reset</button>
+
+      <input type="submit" id="submit" />
+    </form>
+
+    <!-- reciept -->
+    <h3>Reciept</h3>
+    <section class="recSection">
+      <div id="rec1"></div>
+      <div id="rec2"></div>
+      <div id="rec3"></div>
+      <div id="rec4"></div>
+      <div id="rec5"></div>
+      <div id="rec6"></div>
+    </section>
+
+    <footer>
+      <!-- This will be Twitter Snapchat Instagram and Facebook-->
+      <div class="imgforapplogos">
+        <p>Follow Hawaii shop today.</p>
+        <a href="#">
+          <img
+            src="./Images/1851697_face book_facebook_fb_media_network_icon.png "
+            alt="Facebook"
+            style="width: 55px; height: 55px"
+        /></a>
+
+        <a href="#">
+          <img
+            src="./Images/3225183_app_logo_media_popular_social_icon.png "
+            alt="Twitter"
+            style="width: 55px; height: 55px"
+        /></a>
+
+        <a href="#"
+          ><img
+            src="./Images/4102574_applications_media_snapchat_social_icon.png "
+            alt="Snapchat"
+            style="width: 55px; height: 55px"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Images/6929237_instagram_icon.png"
+            alt="Instagram"
+            style="width: 55px; height: 55px"
+        /></a>
+      </div>
+    </footer>
+
+    <!--Do not forget Index.Z for css to move pictures forward-->
+    <!--Basic: TropicalGetaway
+
+    Good: ParadiseRetreat
+
+    Best: LuxuryOasis
+
+-->
+  </body>
+</html>
