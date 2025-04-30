@@ -1,0 +1,48 @@
+h1 {
+  background-color: green;
+  padding: 20px;
+  border: solid;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+footer {
+  background-color: green;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+}
+
+.Images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.Images img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.imgforapplogos {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.recSection {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
